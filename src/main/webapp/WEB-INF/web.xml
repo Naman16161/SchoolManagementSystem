@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TeacherLoginServlet</servlet-name>
+        <servlet-class>servlet.TeacherLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TeacherLoginServlet</servlet-name>
+        <url-pattern>/TeacherLoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>MarkHomeworkServlet</servlet-name>
+    <servlet-class>servlet.MarkHomeworkServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>MarkHomeworkServlet</servlet-name>
+    <url-pattern>/MarkHomeworkServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddHomeworkServlet</servlet-name>
+    <servlet-class>servlet.AddHomeworkServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddHomeworkServlet</servlet-name>
+    <url-pattern>/AddHomeworkServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteHomeworkServlet</servlet-name>
+    <servlet-class>servlet.DeleteHomeworkServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteHomeworkServlet</servlet-name>
+    <url-pattern>/DeleteHomeworkServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UpdateFeeServlet</servlet-name>
+    <servlet-class>servlet.UpdateFeeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateFeeServlet</servlet-name>
+    <url-pattern>/UpdateFeeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddFeeReceiptServlet</servlet-name>
+    <servlet-class>servlet.AddFeeReceiptServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddFeeReceiptServlet</servlet-name>
+    <url-pattern>/AddFeeReceiptServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UpdateAttendanceServlet</servlet-name>
+    <servlet-class>servlet.UpdateAttendanceServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateAttendanceServlet</servlet-name>
+    <url-pattern>/UpdateAttendanceServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UpdatePerformanceServlet</servlet-name>
+    <servlet-class>servlet.UpdatePerformanceServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdatePerformanceServlet</servlet-name>
+    <url-pattern>/UpdatePerformanceServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UpdateSyllabusServlet</servlet-name>
+    <servlet-class>servlet.UpdateSyllabusServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateSyllabusServlet</servlet-name>
+    <url-pattern>/UpdateSyllabusServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddTimetableServlet</servlet-name>
+    <servlet-class>servlet.AddTimetableServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddTimetableServlet</servlet-name>
+    <url-pattern>/AddTimetableServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteTimetableServlet</servlet-name>
+    <servlet-class>servlet.DeleteTimetableServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteTimetableServlet</servlet-name>
+    <url-pattern>/DeleteTimetableServlet</url-pattern>
+</servlet-mapping>
+</web-app>
